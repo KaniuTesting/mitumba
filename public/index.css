@@ -3,3 +3,8 @@
   background-attachment: fixed;
   height: 30%;
 }
+
+#jumbotron2 {
+  background: none;
+  height: 20%;
+}
