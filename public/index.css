@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .jumbotron {
   background: url("images/bales.jpg");
   background-attachment: fixed;
@@ -8,13 +12,23 @@
   font-weight: bold;
   font-size: x-large;
   letter-spacing: 2.5px;
-  word-spacing: 50px;
+  word-spacing: 20px;
   font-family: "Hanalei", cursive;
 }
 
 #jumbotron2 {
+  margin-top: 0;
+  padding-top: 0;
   background: none;
   height: 20%;
-  font-family: "Potta One", cursive;
-  font-size: xx-large;
+  font-size: x-large;
+}
+.display1 {
+  font-family: "Knewave", cursive;
+}
+.display2 {
+  font-family: "Monoton", cursive;
+}
+.display3 {
+  font-family: "Knewave", cursive;
 }
