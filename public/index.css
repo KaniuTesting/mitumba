@@ -1,4 +1,5 @@
 .jumbotron {
-  background-attachment: url("images/bales.jpg");
+  background: url("images/bales.jpg");
+  background-attachment: fixed;
   height: 30%;
 }
