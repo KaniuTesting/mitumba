@@ -15,7 +15,10 @@ body {
   word-spacing: 20px;
   font-family: "Hanalei", cursive;
 }
-
+.container1 {
+  margin-top: 0;
+  padding-top: 0;
+}
 #jumbotron2 {
   margin-top: 0;
   padding-top: 0;
@@ -24,10 +27,11 @@ body {
   font-size: x-large;
 }
 .display1 {
-  font-family: "Knewave", cursive;
+  font-family: "Righteous", cursive;
 }
 .display2 {
   font-family: "Monoton", cursive;
+  letter-spacing: 5px;
 }
 .display3 {
   font-family: "Knewave", cursive;
