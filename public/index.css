@@ -3,8 +3,18 @@
   background-attachment: fixed;
   height: 30%;
 }
+#greetings {
+  padding-left: 2%;
+  font-weight: bold;
+  font-size: x-large;
+  letter-spacing: 2.5px;
+  word-spacing: 50px;
+  font-family: "Hanalei", cursive;
+}
 
 #jumbotron2 {
   background: none;
   height: 20%;
+  font-family: "Potta One", cursive;
+  font-size: xx-large;
 }
