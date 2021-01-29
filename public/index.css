@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 .jumbotron {
-  background: url("images/background/tz.jpeg");
+  background: url("images/background/tz1611933264.jpg");
   background-attachment: fixed;
   height: 30%;
 }
@@ -42,7 +42,10 @@ body {
   color: aliceblue;
 }
 #jumbotron3 {
-  background: url("images/background/tz.jpeg");
+  background: url("images/owner/IMG_1968\ \(3\).JPG");
   background-attachment: fixed;
   height: 40%;
+}
+.card-img-top {
+  width: 100%;
 }
