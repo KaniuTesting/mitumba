@@ -4,6 +4,7 @@ body {
 }
 .jumbotron {
   background: url("images/background/tz1611933264.jpg");
+  background-size: contain;
   background-attachment: fixed;
   height: 30%;
 }
@@ -42,7 +43,8 @@ body {
   color: aliceblue;
 }
 #jumbotron3 {
-  background: url("images/owner/IMG_1968\ \(3\).JPG");
+  background: url("images/background/nlxvbp.jpg");
+  background-size: contain;
   background-attachment: fixed;
   height: 40%;
 }
