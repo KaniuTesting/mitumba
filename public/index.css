@@ -49,20 +49,31 @@ body {
   width: 100%;
 }
 #jumbotron4 {
-  background: url("images/background/nlxvbp.jpg");
-  background-size: contain;
-  background-attachment: fixed;
-  height: 40%;
-}
-#jumbotron5 {
   background: url("images/background/ThankYou.jpg");
   background-size: contain;
   background-attachment: fixed;
   height: 40%;
 }
 
+
 /*
-Media query to help handle resizing the first jumbotron*/
+Media query to help handle resizing the first jumbotron (tablets)*/
+@media only screen and (max-width: 1024px) {
+  .jumbotron {
+    height: 20%;
+  }
+}
+
+/*
+Media query to help handle resizing the first jumbotron (tablets)*/
+@media only screen and (max-width: 800px) {
+  .jumbotron {
+    height: 20%;
+  }
+}
+
+/*
+Media query to help handle resizing the first jumbotron (phones)*/
 @media only screen and (max-width: 600px) {
   .jumbotron {
     height: 15%;

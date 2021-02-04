@@ -31,17 +31,30 @@
     <!-- GetButton.io widget -->
     <script type="text/javascript">
       (function () {
-          var options = {
-              whatsapp: "+254722837479", // WhatsApp number
-              call_to_action: "Message us", // Call to action
-              position: "right", // Position may be 'right' or 'left'
-          };
-          var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-          var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-          s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-          var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        var options = {
+          facebook: "2140508839541082", // Facebook page ID
+          whatsapp: "+254722837479", // WhatsApp number
+          call_to_action: "Message us", // Call to action
+          button_color: "#FF6550", // Color of button
+          position: "right", // Position may be 'right' or 'left'
+          order: "facebook,whatsapp", // Order of buttons
+        };
+        var proto = document.location.protocol,
+          host = "getbutton.io",
+          url = proto + "//static." + host;
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = url + "/widget-send-button/js/init.js";
+        s.onload = function () {
+          WhWidgetSendButton.init(host, proto, options);
+        };
+        var x = document.getElementsByTagName("script")[0];
+        x.parentNode.insertBefore(s, x);
       })();
     </script>
+    <!-- /GetButton.io widget -->
+
     <!--
     Jumbotron1 top -->
     <div class="jumbotron jumbotron-fluid"></div>
@@ -93,6 +106,8 @@
       <!--
       1st row having Featured items -->
       <div class="row justify-content-center">
+        <!--
+        Baby medium clothing -->
         <div class="col-lg-3 col-md-6 card-block">
           <img
             class="card-img-top"
@@ -121,6 +136,8 @@
           </div>
         </div>
 
+        <!--
+        Baby rummage (medium) -->
         <div class="col-lg-3 col-md-6 card-block">
           <img
             class="card-img-top"
@@ -149,12 +166,14 @@
           </div>
         </div>
 
+        <!--
+        Ladies tights/leggings -->
         <div class="col-lg-3 col-md-6 card-block">
           <img class="card-img-top" src="images/bales/leggings1611932531.jpg" />
           <br /><br />
           <div class="card-title">
             <p>
-              Ladies tights/leggings.
+              Ladies tights/leggings
               <br />
               Country of origin: United Kingdom
               <br />
@@ -174,6 +193,8 @@
           </div>
         </div>
 
+        <!--
+        Canadian Bedcovers/comforters -->
         <div class="col-lg-3 col-md-6 card-block">
           <img
             class="card-img-top"
@@ -182,7 +203,7 @@
           <br /><br />
           <div class="card-title">
             <p>
-              Canadian Bedcovers/comforters.
+              Canadian Bedcovers/comforters
               <br />
               Country of origin: Canada
               <br />
@@ -206,11 +227,7 @@
       <br /><br />
     </div>
 
-    <!--
-    Jumbotron -->
-    <div id="jumbotron3" class="jumbotron"></div>
-
-      <br><br>
+    <br /><br />
 
     <!--
     2nd Container -->
@@ -336,13 +353,13 @@
           </div>
         </div>
       </div>
+      
+      <br><br>
     </div>
 
-    <br /><br />
-
     <!--
-    Jumbotron -->
-    <div id="jumbotron4" class="jumbotron"></div>
+    Jumbotron3 -->
+    <div id="jumbotron3" class="jumbotron"></div>
 
     <br /><br />
 
@@ -471,12 +488,7 @@
 
       <br />
     </div>
-
-    <br>
-    <!--
-    Jumbotron -->
-    <div id="jumbotron5" class="jumbotron"></div>
-    <br>
+    <br />
 
     <!--
     4th Container -->
@@ -517,7 +529,10 @@
         <!--
         Men t-shirts -->
         <div class="col-lg-3 col-md-6 card-block">
-          <img class="card-img-top" src="images/bales/men tshirts1612444009 (1).jpg" />
+          <img
+            class="card-img-top"
+            src="images/bales/men tshirts1612444009 (1).jpg"
+          />
           <br /><br />
           <div class="card-title">
             <p>
@@ -571,7 +586,10 @@
         <!--
         adult sweat pant -->
         <div class="col-lg-3 col-md-6 card-block">
-          <img class="card-img-top" src="images/bales/adult sweat pant1612444719.jpg" />
+          <img
+            class="card-img-top"
+            src="images/bales/adult sweat pant1612444719.jpg"
+          />
           <br /><br />
           <div class="card-title">
             <p>
@@ -595,9 +613,12 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>    
 
-    <br><br>
+    <br />
+    <!--
+    Jumbotron4 -->
+    <div id="jumbotron4" class="jumbotron"></div>
 
     <!--
     jQuery, Popper.js, and Bootstrap JS -->
