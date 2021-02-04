@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 .jumbotron {
-  background: url("images/background/tz1611933264.jpg");
+  background: url("images/background/happy\ shopping.jpg");
   background-size: contain;
   background-attachment: fixed;
   height: 30%;
@@ -15,10 +15,6 @@ body {
   letter-spacing: 2.5px;
   word-spacing: 20px;
   font-family: "Hanalei", cursive;
-}
-.container1 {
-  margin-top: 0;
-  padding-top: 0;
 }
 #jumbotron2 {
   margin-top: 0;
