@@ -1,9 +1,10 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: c7cfb7;
 }
 .jumbotron {
-  background: url("images/background/happy\ shopping.jpg");
+  background: url("images/background/karibu.jpg");
   background-size: contain;
   background-attachment: fixed;
   height: 30%;
@@ -39,11 +40,31 @@ body {
   color: aliceblue;
 }
 #jumbotron3 {
-  background: url("images/background/nlxvbp.jpg");
+  background: url("images/background/shopping.jpg");
   background-size: contain;
   background-attachment: fixed;
   height: 40%;
 }
 .card-img-top {
   width: 100%;
+}
+#jumbotron4 {
+  background: url("images/background/nlxvbp.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+  height: 40%;
+}
+#jumbotron5 {
+  background: url("images/background/ThankYou.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+  height: 40%;
+}
+
+/*
+Media query to help handle resizing the first jumbotron*/
+@media only screen and (max-width: 600px) {
+  .jumbotron {
+    height: 15%;
+  }
 }
